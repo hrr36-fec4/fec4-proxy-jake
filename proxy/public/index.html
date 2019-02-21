@@ -9,25 +9,18 @@
     <div id="ProductOptions"></div>
     <div id="RelatedItemsAndSizeChart"></div>
     <div id="Reviews"></div>
-    <script src="/lib/react.development.js"></script>
-    <script src="/lib/react-dom.development.js"></script>
-    <script src="http://localhost:3001/bundle.js"></script>
-    <!-- <script src="http://localhost:3002/app.js"></script> -->
-    <script src="http://localhost:3003/bundle.js"></script>
+
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
-    <script>
-      ReactDOM.render(
-        React.createElement(ProductOptions),
-        document.getElementById('ProductOptions')
-      );
-      ReactDOM.render(
-        React.createElement(RelatedItemsAndSizeChart),
-        document.getElementById('RelatedItemsAndSizeChart')
-      );
-      ReactDOM.render(
-        React.createElement(Reviews),
-        document.getElementById('Reviews')
-      );
-    </script>
+    <div id="product-options">
+      <script src="http://localhost:3001/bundle.js"></script>
+    </div>
+
+    <div id="ac">
+      <script src="http://localhost:3002/bundle.js"></script>
+    </div>
+
+    <div id="reviews">
+      <script src="http://localhost:3003/bundle.js"></script>
+    </div>
   </body>
 </html>
