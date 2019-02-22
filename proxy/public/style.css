@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+header .image-container {
+  background-color: black;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-spotlight {
+  padding: 30px;
+}
+
+.product-spotlight .image-container {
+  width: 700px;
+  float: left;
+}
+
+.product-spotlight img {
+  width: 100%;
+}
+
+#product-options {
+  float: right;
+}
+
+footer .image-container {
+  background-color: black;
+  text-align: center;
+}
