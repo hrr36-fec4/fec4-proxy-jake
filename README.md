@@ -1,39 +1,19 @@
-# Project Name
+# fec4-proxy-jake
 
-> Project description
+> Jake Ascher's proxy server for HREI.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/hrr36-fec4/fec4-product-options
+  - https://github.com/hrr36-fec4/fec4-related-items-and-size-chart
+  - https://github.com/hrr36-fec4/fec4-reviews
 
 ## Table of Contents
 
 1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
 
 ## Usage
 
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+1. Run `npm install` from within the `proxy/` directory to install dependencies.
+2. Run `git pull` from within each of the submodule directories to load the latest updates for each service.
+3. Run `npm start` from within the `proxy/` directory to start the server.
