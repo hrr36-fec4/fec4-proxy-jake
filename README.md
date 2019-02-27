@@ -1,6 +1,6 @@
 # fec4-proxy-jake
 
-> Jake Ascher's proxy server for HREI.
+Jake's proxy server for HREI.
 
 ## Related Projects
 
